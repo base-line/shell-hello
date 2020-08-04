@@ -1,2 +1,2 @@
 # shell-hello
-Shell script which says hello
+Shell script which prints hello
