@@ -1,0 +1,9 @@
+deploy:
+  provider: releases
+  api_key:
+    secure: WbZFp+MM8Ssho0kaaKKUv0std2vRbTU2q3FGL0mJ2/OJ6V0mrbXdJC6rVp8lB+/l6yYNglRXeQqQ6OgwERKPiNHb35kAkRE7FR4ja9qBsx1aLRdjsuXL5Xk7inzOWPegSW8xBoxdmk/7vQdm4s0t9VQUp2fVrqUG8bCIeNjqTm6jSODoU3DgiYtqpTml0bpi4DR24Z16MsJuyOil5mVsiDazN0sV8KOW2VMz+rpp4b4a2CYqaOc0I2Z+Etsqth7aO2q6tkkCW4Ox0NyNdB00YuT9uVVI4BKh7GQ3J+JaFdn4TvtsJDFevfIvWpnnxJhh5tQUQhtSIRM3bBi8V+TJWF9O+kD0s27rb7L4VnqtfEvGrcdLOZXgMek/UMlRwha338mEzVNkW7pP4chqnmRscNtJmWpwVZ2+Bo5Q+Pi70B6c9Txzpzr8rK12WWGfcAw0y4p0NWpzutKWIaI0/T3s8lgu3OhwHT1tfIneImkGBSmMzpLzGsJWbSdbVSU9Cyj/yVp/ICTIrNTT7gfXBJJY1R+/kF7vCvtg80BCdEt8WB3VftkOziBuYbQT0KK9wD8ulmnBK9u5c+ZbwMN9v1FO/loWfrwT0x9KhhhdGMrldjJyN/Z5cK4mCtSlPYazMnMzn+K0xb9Eq2nYB8eFxNflp0MdNKolJsdGVcB5dhPKSmA=
+  file: 'script.sh'
+  on:
+    repo: base-line/shell-hello
+    tags: true
+  skip_cleanup: 'true'
